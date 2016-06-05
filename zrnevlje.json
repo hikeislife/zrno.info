@@ -1,0 +1,30 @@
+{
+"zrnevlje": [
+	{"name":"pšenica", "type":"grain", "gluten":"true", "paleo":"false", "desc":""}
+	{"name":"raž", "type":"grain", "gluten":"true", "paleo":"false", "desc":""}
+	{"name":"jecam", "type":"grain", "gluten":"true", "paleo":"false", "desc":""}
+	{"name":"ovas", "type":"grain", "gluten":"", "paleo":"", "desc":""}
+	{"name":"pirinac", "type":"grain", "gluten":"false", "paleo":"false", "desc":""}
+	{"name":"", "type":"grain", "gluten":"false", "paleo":"false", "desc":""}
+	{"name":"", "type":"grain", "gluten":"false", "paleo":"false", "desc":""}
+	{"name":"", "type":"grain", "gluten":"false", "paleo":"false", "desc":""}
+	{"name":"heljda", "type":"other", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"", "type":"other", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"", "type":"other", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"", "type":"other", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"badem", "type":"nut", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"", "type":"nut", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"", "type":"nut", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"", "type":"nut", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"grašak", "type":"legume", "gluten":"false", "paleo":"false", "desc":""}
+	{"name":"pasulj", "type":"legume", "gluten":"false", "paleo":"false", "desc":""}
+	{"name":"kikiriki", "type":"legume", "gluten":"false", "paleo":"false", "desc":""}
+	{"name":"", "type":"legume", "gluten":"false", "paleo":"false", "desc":""}
+	{"name":"susam", "type":"seed", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"suncokret", "type":"seed", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"", "type":"seed", "gluten":"false", "paleo":"true", "desc":""}
+	{"name":"", "type":"seed", "gluten":"false", "paleo":"true", "desc":""}
+	
+
+]
+}
