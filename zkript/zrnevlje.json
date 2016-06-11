@@ -1,0 +1,305 @@
+[
+	{
+		"name": "pšenica",
+		"type": "žitarica",
+		"gluten": true,
+		"paleo": false,
+		"latin": "Triticum ...",
+		"english": "wheat",
+		"desc": "Pšenica je sveprisutna žitarica. Gotovo da nema proizvoda na tržištu koji ne sadrže pšenicu, ili neki njezin prerađeni sastojak. Pšenica je otuda ozloglašena, jer s njom, svi ti proizvodi sadrže i problematični gluten.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "raž",
+		"type": "žitarica",
+		"gluten": true,
+		"paleo": false,
+		"latin": "Secale cereale",
+		"english": "rye",
+		"desc": "Raž se često pominje kao zdravija verzija pšenice, ali i on sadrži gluten, i to ga čini jednako opasnim kao i pšenicu.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "ječam",
+		"type": "žitarica",
+		"gluten": true,
+		"paleo": false,
+		"latin": "Hordeum vulgare",
+		"english": "barley",
+		"desc": "Ječam je žitarica od koje se proizvodi popularno piće za mase, pivo. Ječam sadrži gluten, pa samim tim i pivo.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "ovas",
+		"type": "žitarica",
+		"gluten": null,
+		"paleo": false,
+		"latin": "Avena sativa",
+		"english": "oat",
+		"desc": "Ovas je zlosrećna žitarica koja prirodno ne proizvodi gluten, ali ga gotovo uvek sadrži jer se uzgaja pored pšenice, i obrađuje u istim postrojenjima kao i pšenica. Domaći proizvodi koji sadrže ovas, navode da sadrže gluten (ovas) ali ako bi podstakli uzgajivače, mogli bi bez problema da krenu sa proizvodnjom bez glutenskih proizvoda.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "pirinač",
+		"type": "žitarica",
+		"gluten": false,
+		"paleo": false,
+		"latin": "Oryza sativa",
+		"english": "rice",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum commodi, voluptatibus laboriosam praesentium architecto illum in maiores labore, esse culpa neque ipsam reiciendis, necessitatibus et! Fuga adipisci, quaerat nihil rerum!",
+		"nutr":"to be added at later date"
+	},
+		{
+		"name":"kukuruz",
+		"type":"žitarica",
+		"gluten":false,
+		"paleo":false,
+		"latin":"Zea mays",
+		"english":"corn ili maize",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, veniam ipsum obcaecati mollitia dolore labore officia odit dolorum sed. Necessitatibus veritatis vero laudantium, minima at porro illum dicta quis optio?",
+		"nutr":"to be added at later date"
+	},
+
+	{
+		"name": "heljda",
+		"type": "ostalo",
+		"gluten": false,
+		"paleo": null,
+		"latin": "Fagopyrum esculentum",
+		"english": "buckwheat",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nostrum, odit commodi quisquam dolorum amet? Eaque, non facilis nostrum perspiciatis minima, alias, ab nobis necessitatibus quos libero quia eius consectetur.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "badem",
+		"type": "orašasto voće",
+		"gluten": false,
+		"paleo": true,
+		"latin": "Prunus dulcis",
+		"english": "almond",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus accusamus error, natus mollitia nam tempore ipsam voluptate quibusdam facilis. Rem voluptatum error exercitationem, vero aliquid in, nesciunt hic ad dolor!",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "orah",
+		"type": "orašasto voće",
+		"gluten": false,
+		"paleo": true,
+		"latin": "Juglans regia",
+		"english": "walnut",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quasi fugiat eos quia voluptatum nihil cupiditate eveniet obcaecati, nobis minima excepturi nostrum omnis aspernatur delectus hic. Porro nemo impedit magnam!",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"kesten",
+		"type":"orašasto voće",
+		"gluten":false,
+		"paleo":true,
+		"latin":"Castanea sativa",
+		"english":"chestnut",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui voluptates fugiat quo vero, consequuntur debitis ipsa modi explicabo eaque adipisci optio at enim cupiditate provident quaerat iusto consequatur! Et, iste.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"lešnik",
+		"type":"orašasto voće",
+		"gluten":false,
+		"paleo":true,
+		"latin":"Corylus avellana",
+		"english":"hazelnut",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque omnis, ad aliquid repellat tempora dignissimos quibusdam expedita perspiciatis alias magni! Dolore nemo id blanditiis, eos autem odit optio in reiciendis!",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"kim",
+		"type":"seme",
+		"gluten":false,
+		"paleo":true,
+		"latin":"Carum carvi",
+		"english":"caraway ili cumin",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, quasi incidunt libero esse veritatis debitis dolor, quibusdam quas atque iure ipsa ratione culpa ipsam mollitia praesentium tempora soluta cupiditate unde.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"kinoa",
+		"type":"seme",
+		"gluten":false,
+		"paleo":null,
+		"latin":"Chenopodium quinoa",
+		"english":"quinoa",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto neque libero quae modi deserunt accusamus incidunt sapiente, iure rem sed odio molestias praesentium illo, recusandae ducimus amet minus, eius fuga.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"leblebija",
+		"type":"mahunarka",
+		"gluten":false,
+		"paleo":false,
+		"latin":"Cicer arietinum",
+		"english":"chickpeas",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque impedit voluptatibus vel tempora, vitae a eius, quam enim id dolor minus cum assumenda. Harum quasi a repellendus quaerat similique hic.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"pikan",
+		"type":"orašasto voće",
+		"gluten":false,
+		"paleo":true,
+		"latin":"Carya illinoinensis",
+		"english":"pecan",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex iure animi dolore veniam repellat vel cupiditate provident quaerat eius error, assumenda molestiae alias consequatur. Quasi ab consectetur repellendus quae, sint.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"soja",
+		"type":"mahunarka",
+		"gluten":false,
+		"paleo":false,
+		"latin":"Glycine max",
+		"english":"soy bean",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, dolorem, odio. Tenetur laboriosam pariatur suscipit facere nisi, animi officiis sint sapiente recusandae id distinctio earum, necessitatibus explicabo cumque dicta amet.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"pistać",
+		"type":"ostalo",
+		"gluten":false,
+		"paleo":null,
+		"latin":"Pistacia vera",
+		"english":"pistachio",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus aspernatur at, praesentium tempore nesciunt labore nihil earum, consectetur consequuntur! Suscipit commodi incidunt in beatae magnam dolore quidem, reiciendis dolorem!",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"amarant",
+		"type":"seme",
+		"gluten":false,
+		"paleo":null,
+		"latin":"Amaranthus ...",
+		"english":"amaranth",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facere iste minus voluptate quam consectetur, nisi eaque in architecto adipisci est repudiandae placeat illo cupiditate alias et, esse culpa veritatis?",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"spelta",
+		"type":"žitarica",
+		"gluten":false,
+		"paleo":false,
+		"latin":"Triticum spelta",
+		"english":"spelt",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae voluptates excepturi minus est itaque omnis at hic quis sequi dolore rem, voluptatibus earum, architecto eum porro illo animi obcaecati. Consectetur?",
+		"nutr":"to be added at later date"
+	},
+	
+	{
+		"name": "indijski orah",
+		"type": "orašasto voće",
+		"gluten": false,
+		"paleo": true,
+		"latin": "Anacardium occidentale",
+		"english": "cashew",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos facere, quam aperiam ducimus odit doloremque eius deserunt saepe, eligendi quidem rerum voluptates! Libero maxime quos voluptate consequuntur tenetur temporibus impedit!",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "brazilski orah",
+		"type": "orašasto voće",
+		"gluten": false,
+		"paleo": true,
+		"latin": "Bertholletia excelsa",
+		"english": "brazil nut",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos voluptatibus quas aspernatur enim, reprehenderit, reiciendis odio modi autem temporibus fugiat, animi cupiditate tempore quos dolorem. Voluptas nisi harum temporibus ratione.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "grašak",
+		"type": "mahunarka",
+		"gluten": false,
+		"paleo": false,
+		"latin": "Pisum sativum",
+		"english": "pea",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus est officiis molestiae expedita atque ipsa nesciunt nihil inventore, quasi exercitationem! Repudiandae impedit eius reprehenderit fugit, laudantium modi delectus iste consequuntur.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "pasulj",
+		"type": "mahunarka",
+		"gluten": false,
+		"paleo": false,
+		"latin": "Phaseolus ...",
+		"english": "bean",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit at dolorum reprehenderit, obcaecati magni sed sequi eaque quidem quia ducimus architecto! Officiis voluptates itaque laboriosam optio debitis voluptas deleniti, culpa.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"boranija",
+		"type":"mahunarka",
+		"gluten":false,
+		"paleo":false,
+		"latin":"Phaseolus vulgaris",
+		"english":"green beans",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consequatur, sapiente fugiat alias voluptatem asperiores totam soluta nam explicabo adipisci, itaque nobis nostrum, facilis voluptates odit sunt iste voluptatum dignissimos?",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "kikiriki",
+		"type": "mahunarka",
+		"gluten": false,
+		"paleo": false,
+		"latin": "Arachis hypogaea",
+		"english": "peanut",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos obcaecati, voluptas dolorum iste nostrum earum! Quidem, qui id, voluptas, sint itaque et quia alias fugiat consectetur praesentium voluptatem numquam quis.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "susam",
+		"type": "seme",
+		"gluten": false,
+		"paleo": true,
+		"latin": "Sesamum indicum",
+		"english": "sesame seed",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex totam autem sed consequuntur quisquam ullam quasi illum ab voluptas nulla unde dolor eaque corporis adipisci, deleniti necessitatibus. Dolores eveniet, vitae!",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "suncokret",
+		"type": "seme",
+		"gluten": false,
+		"paleo": true,
+		"latin": "Helianthus annuus",
+		"english": "sunflower seed",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia culpa ducimus vitae tenetur id rem quas, ab illum deleniti necessitatibus, laborum sapiente provident similique molestiae possimus eligendi repellat facere doloribus.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "bundeva",
+		"type": "seme",
+		"gluten": false,
+		"paleo": true,
+		"latin": "Cucurbita pepo",
+		"english": "pumpkin seed",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, praesentium quae velit quaerat ad! Ratione laborum, nihil cum, qui perspiciatis facere quidem obcaecati expedita molestias veritatis ex, nam. Iusto, animi.",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"čia",
+		"type":"seme",
+		"gluten":false,
+		"paleo":true,
+		"latin":"Salvia hispanica",
+		"english":"chia seed",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reiciendis, praesentium, id repellat mollitia, fuga eum ab quisquam est odit iusto veritatis maxime voluptates sequi cupiditate et sint voluptas nobis!",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name": "lan",
+		"type": "seme",
+		"gluten": false,
+		"paleo": true,
+		"latin": "Linum usitatissimum",
+		"english": "flax seed",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora porro dicta inventore saepe veniam reiciendis, cupiditate quisquam distinctio. Vitae magni quaerat dolorum dolores quas? Laboriosam magnam reprehenderit qui, temporibus sunt.",
+		"nutr":"to be added at later date"
+	}
+
+]
