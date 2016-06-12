@@ -112,7 +112,7 @@ xhr.onreadystatechange = function () {
 		if (d.style.display.match("inline") && (descBox.innerHTML === zrna[K].nutr)) {
 			d.style.display="none";
 		}
-		else if (descBox.innerHTML === zrna[K].desc) {
+		else if (d.style.display.match("inline") && (descBox.innerHTML === zrna[K].desc)) {
 			descBox.innerHTML = zrna[K].nutr;
 		}
 		else {
@@ -126,7 +126,7 @@ xhr.onreadystatechange = function () {
 		if (d.style.display.match("inline") && (descBox.innerHTML === zrna[K].desc)) {
 			d.style.display="none";
 		}
-		else if (descBox.innerHTML === zrna[K].nutr) {
+		else if ((d.style.display.match("inline") && descBox.innerHTML === zrna[K].nutr)) {
 			descBox.innerHTML = zrna[K].desc;
 		}
 		else {

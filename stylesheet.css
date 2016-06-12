@@ -66,6 +66,7 @@ button:hover {
 	background: #F3F781;
 	border-radius: 5px;
 	font-size: 16px;
+	height: 90%;
 }
 #content {
 	margin: 0px;
@@ -76,17 +77,22 @@ img {
 	display: block;
 	border-radius: 2px;
 }
+.move {
+	z-index: 1;
+	width: 200px;
+}
 nav {
 	font-family: 'Anonymous Pro', Verdana, sans-serif;
 	position: fixed;
 	width: 170px;
-	height: 150px;
-	margin-top: 200px;
+	height: auto;
+	bottom: 323px;
 	margin-left: -40px;
 	z-index: 1;
 }
 ul {
 	list-style-type: none;
+
 }
 a {
 	text-decoration: none;
@@ -94,7 +100,7 @@ a {
 #home {
 	position: absolute;
 	font-size: 14px;
-	border: 2px solid #688A08;
+	border: 5px solid #688A08;
 	border-radius: 50%;
 	width: 42px;
 	height: 42px;
@@ -115,7 +121,7 @@ a {
 	top: 0;
 	left: 90px;
 	font-size: 15px;
-	border: 2px solid #688A08;
+	border: 5px solid #688A08;
 	border-radius: 50%;
 	width: 80px;
 	height: 80px;
@@ -135,7 +141,7 @@ a {
 	position: absolute;
 	top: 100px;
 	font-size: 15px;
-	border: 2px solid #688A08;
+	border: 5px solid #688A08;
 	border-radius: 50%;
 	width: 75px;
 	height: 75px;
@@ -156,7 +162,7 @@ a {
 	top: 85px;
 	left: 115px;
 	font-size: 15px;
-	border: 2px solid #688A08;
+	border: 5px solid #688A08;
 	border-radius: 50%;
 	width: 70px;
 	height: 70px;
@@ -208,16 +214,20 @@ a {
 }
 footer {
 	background-color: #2E3B0B;
+	position: absolute;
+	width: 100%;
 	color: #F4FA58;
 	margin: -10px;
 	margin-top: 10px;
-	padding: 5px 0 15px 0;
 }
 footer a {
 	color: #F4FA58;
 }
 footer a:hover {
 	text-decoration: underline;
+}
+#gap {
+	padding-left: 7px;
 }
 #mobile_menu {
 	font-family: 'Anonymous Pro', Verdana, sans-serif;
@@ -335,111 +345,84 @@ footer a:hover {
 	border: 3px solid #e6e600;
 }
 
-/*#filler {
-	background-color: #F4FA58;
-	opacity: 0.5;
-	width: 70%;
-	float: right;
-	display: inline;
-	z-index: 1;
-}*/
-
-/* chrome1 */
+/* chrome */
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {
 	button {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	footer {
 		padding: 5px 0 20px 0;
 	}
 }
-@media screen and (max-width: 900px) {
+/* 150% */
+@media screen and (max-width: 900px) 
+{
 	#collapse {
-	display: block;
+		display: block;
 	}
 	header {
-		/**/
 		text-align: center;
 	}
 	nav {
 		width: 100%;
-		margin-bottom: 0;
+		margin-top: 0px;
+		margin-left: 0;
+		/*margin-bottom: -10%;*/
+	}
+	#nav {
 		display: none;
 	}
 	#mobile_menu {
-		display: inline;
-	}
-	#afla {
-		font-family: Verdana, "sans-serif";
 		display: block;
-		margin: 0;
-		border-bottom: 0;
-		border-radius: 0;
-		width: 100%;
-		height: 30px;
-		transition: 0;
-		clear: both;
-		font-size: 16px;
 	}
 	#home {
 		font-family: Verdana, "sans-serif";
-		display: block;
 		margin: 0;
 		border-bottom: 0;
 		border-radius: 0;
 		width: 100%;
-		height: 30px;
-		transition: 0;
-		clear: both;
+		height: 40px;
 		font-size: 16px;
+		top: 0;
+		left: 0;
+	}
+	#home p {
+		margin-top: 10px;
+	}
+	#afla {
+		font-family: Verdana, "sans-serif";
+		border-bottom: 0;
+		border-radius: 0;
+		top: 40px;
+		left: 0;
+		width: 100%;
+		height: 40px;
+	}
+	#afla p {
+		margin-top: 10px;
 	}
 	#germ {
 		font-family: Verdana, "sans-serif";
-		display: block;
-		margin: 0;
 		border-bottom: 0;
 		border-radius: 0;
+		top: 80px;
+		left: 0;
 		width: 100%;
-		height: 30px;
-		transition: 0;
-		clear: both;
-		font-size: 16px;
+		height: 40px;
+	}
+	#germ p {
+		margin-top: 10px;
 	}
 	#cont {
 		font-family: Verdana, "sans-serif";
-		display: block;
-		margin: 0;
-		border-bottom: 0;
 		border-radius: 0;
+		top: 120px;
+		left: 0;
 		width: 100%;
-		height: 30px;
-		transition: 0;
-		clear: both;
-		font-size: 16px;
-	}
-	#afla:hover {
-		transform: none;
-	}
-	#afla p {
-		margin: 10px;
-	}
-	#home:hover {
-		transform: none;
-	}
-	#home p {
-		margin: 10px;
-	}
-	#cont:hover {
-		transform: none;
+		height: 40px;
 	}
 	#cont p {
-		margin: 10px;
-	}
-	#germ:hover {
-		transform: none;
-	}
-	#germ p {
-		margin: 10px;
+		margin-top: 10px;
 	}
 }
