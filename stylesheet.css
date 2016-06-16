@@ -274,7 +274,7 @@ footer a:hover {
 	border-radius: 3px;
 	text-align: center;
 	font-family: Impact, "sans-serif";
-	width: 65px;
+	width: 75px;
 }
 #upper_gluten_free {
 	background-color: #006600;
@@ -292,7 +292,7 @@ footer a:hover {
 	text-align: center;
 	border-radius: 3px;
 	font-family: Impact, "sans-serif";
-	width: 65px;
+	width: 75px;
 }
 #upper_gluten_polluted {
 	display: block;
@@ -311,7 +311,7 @@ footer a:hover {
 	border: 3px solid #e60000;
 	border-radius: 3px;
 	font-family: Impact, "sans-serif";
-	width: 65px;
+	width: 75px;
 }
 #upper_gluten {
 	background-color: #e60000;
