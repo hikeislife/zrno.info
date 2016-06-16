@@ -4,8 +4,9 @@ var xhr,
 	xhrt,
 	K,
 	bcgH,
-	descBox
-	searched = document.getElementById("query").value;
+	descBox,
+	searched,
+	search = document.getElementById("button");
 
 if (window.XMLHttpRequest) {
 	xhr = new XMLHttpRequest();
@@ -21,15 +22,56 @@ xhr.onreadystatechange = function () {
 	if ((xhr.status === 200) && (xhr.readyState === 4)) {
 				
 		var zrna = JSON.parse(xhrt),
-			brna = zrna.length;
+			brna = zrna.length,
+			list = [];
 		K = Math.floor(Math.random()*brna);
+		nutCracker(K);
+
+		for (var i = 0; i < brna; i ++) {
+			list.push(zrna[i].name);
+		}
+		document.getElementById("krckoO").addEventListener('submit', enterPressed); 
+
+		search.onclick = clixked;
+
+		function enterPressed() {
+			event.preventDefault();
+			clixked();
+		}
+
+		function clixked() {
+			searched = document.getElementById("query").value.toLowerCase();
+			K = list.indexOf(searched);
+			console.log(K);
+			if (K === -1) {
+				K = Math.floor(Math.random()*brna);
+			}
+
+			nutCracker(K);
+		}
+		
+		console.log(list);
+		/*if (searched === "") {
+			K = Math.floor(Math.random()*brna);
+
+		}
+		else {
+			console.log("testing");
+			
+
+		//}*/
+
+				
+			//K = Math.floor(Math.random()*brna);
+			//return false;
+	}
 		console.log(K);
+		function nutCracker(K) {
 		var kernelName, latinName, engName,
 			glutenB, gluten, glutenUp, glutenDown, glutenStUp,
-			//screenWidth = screen.width,
 			bcg, 
 			paleo, paleoBox, paleoBoxText,
-			descBox =  document.createElement("div");
+			descBox = document.createElement("div");
 
 		contents.innerHTML = "<img src='imgz/" + zrna[K].name + ".jpg' id='bcg-img' alt='ovo je " + zrna[K].name + "'>";
 
@@ -133,7 +175,7 @@ xhr.onreadystatechange = function () {
 			d.style.display="inline";
 			descBox.innerHTML = zrna[K].desc;
 		}
-	}
+	}//loadDescription end
 
 	}
 	
