@@ -162,13 +162,13 @@
 	},
 	{
 		"name":"pistać",
-		"type":"ostalo",
+		"type":"seme",
 		"gluten":false,
-		"paleo":null,
+		"paleo":true,
 		"latin":"Pistacia vera",
 		"english":"pistachio",
-		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus aspernatur at, praesentium tempore nesciunt labore nihil earum, consectetur consequuntur! Suscipit commodi incidunt in beatae magnam dolore quidem, reiciendis dolorem!",
-		"nutr":"to be added at later date"
+		"desc":"Pistaći je žbun poreklom iz centralne azije i bliskog istoka. Pripada istoj botaničkoj porodici kao i cashew (indijski orah), <em>Anacardiaceae</em>.<h3>Uzgajanje</h3>Pistać je pustinjska biljka, voli slano zemljište ili slanu vodu, oko 3000-4000ppm rastvornih soli. Može da izdrži temperature od -10 do 48°C. Podložan je truljenju korena, tako da traži tlo sa dobrom drenažom (voda se sliva niz pustinjsko peskovito zemljište i ne davi sam koren). Iz ovog razloga ne uspeva na mestima gde zimi ima previše vode.<h3>Upotreba</h3>Zrna se obično jedu cela, bilo sirova ili pečena i posoljena. Koristi se i u izradi sladoleda, kulfi (tradicionalni indijski sladoled), spumoniju (italijanski sladoled sa suvim i jezgrastim voćem), u napolitanskom sladoledu, pistaći buteru, pistaći pasti, slatkišima kao što su baklava, pistać čokolada, pistać halva, pistać ratluk, zatim u biskotijima, mesnim prerađevinama, mortadelama. U americi se jede u pistać salati, koja može sadržati sveže pistaće ili pistać puding.",
+		"nutr":"<strong>Kalorijski sadržaj:</strong> 100g pistaćija ima 562kcal*."
 	},
 	{
 		"name":"amarant",
