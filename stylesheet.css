@@ -1,23 +1,22 @@
 body {
 	width: auto;
 	background-color: #C8FE2E;
-	font-family: 'Verdana', sans-serif;
+	font-family: 'Anonymous Pro', Verdana, sans-serif;
 	color: #000000;
 	text-align: center;
 }
 header {
-	padding-bottom: 5px;
+	padding: 10px 0;
 	margin: -10px;
 	text-align: left;
 	background-color: #2E3B0B;
 	color: #F4FA58;
-	padding-top: 5px;
 }
-h1 {
+h3 {
 	font-family: 'Anonymous Pro', Verdana, sans-serif;
 	font-size: 20px;
 	display: inline;
-	padding-left: 7px;
+	margin-left: 12px;
 }
 form {
 	display: inline;
@@ -30,7 +29,7 @@ form {
 	border-radius: 2px;
 }
 input[type=text] {
-	width: 15%;
+	width: 100%;
 	font-family: 'Anonymous Pro', Verdana, sans-serif;
 	background-color: transparent;
 	border: 0px solid;
@@ -50,6 +49,10 @@ input[type=text]:focus {
 	background-color: #F4FA58;
 	border: 1px solid #F4FA58;
 	color: #000;
+	padding: 4px;
+	margin-left: 5px;
+	position: absolute;
+	top: 6px;
 }
 #button:focus {
 	outline: 0;
@@ -64,50 +67,71 @@ input[type=text]:focus {
 	border: 3px solid #86B404;
 	box-shadow: #A5DF00 2px 2px;
 	background: #F3F781;
-	border-radius: 5px;
+	border-radius: 10px;
 	font-size: 16px;
 	height: 90%;
+	z-index: 10;
 }
 #content {
 	margin: 0px;
+}
+.items {
+	margin: 10px 0;
+	border-radius: 10px;
+	border: 3px solid #86B404;
+	box-shadow: #A5DF00 2px 2px;
+	padding: 15px;
+	text-align: justify;
+}
+#oKlijanju {
+	background-color: #66FFB1;
+}	
+#aflat {
+	background-color: #A3FF65;
+}
+#kontakt {
+	background-color: #D6FF2D;
+}
+h2 { 
+	font-family: 'Anonymous Pro', Verdana, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
 }
 img {
 	width: 100%;
 	margin-bottom: 0;
 	display: block;
-	border-radius: 2px;
-}
-.move {
-	z-index: 1;
-	width: 200px;
+	border-radius: 8px;
 }
 nav {
 	font-family: 'Anonymous Pro', Verdana, sans-serif;
-	position: relative;
+	position: fixed;
 	width: 170px;
 	height: auto;
-	top: -480px;
-	margin-left: -40px;
-	z-index: 1;
+	bottom: 10px;
+	z-index: 9999;
+}
+#nav {
+	
 }
 ul {
 	list-style-type: none;
-
 }
 a {
 	text-decoration: none;
 }
 #home {
-	position: absolute;
-	font-size: 14px;
+	position: fixed;
+	font-size: 15px;
 	border: 5px solid #688A08;
 	border-radius: 50%;
-	width: 42px;
-	height: 42px;
 	background: #2E3B0B;
 	color: #F4FA58;
 	transition: .3s;
-	top: 50px;
+	width: 42px;
+	height: 42px;
+	bottom: 155px;
+	left: 10px;
 	margin-left: 5px;
 }
 #home p {
@@ -117,18 +141,17 @@ a {
 	transform: scale(1.2);
 }
 #afla {
-	position: absolute;
-	top: 0;
-	left: 90px;
-	font-size: 15px;
+	position: fixed;
 	border: 5px solid #688A08;
 	border-radius: 50%;
+	bottom: 90px;
+	left: 50px;
+	font-size: 15px;
 	width: 80px;
 	height: 80px;
 	text-decoration: none;
 	background: #2E3B0B;
 	color: #F4FA58;
-	/*word-wrap: normal;*/
 	transition: .3s;
 }
 #afla:hover {
@@ -138,8 +161,8 @@ a {
 	margin-top: 20px;
 }
 #germ {
-	position: absolute;
-	top: 100px;
+	position: fixed;
+	bottom: 30px;
 	font-size: 15px;
 	border: 5px solid #688A08;
 	border-radius: 50%;
@@ -158,9 +181,9 @@ a {
 	transform: scale(1.2);
 }
 #cont {
-	position: absolute;
-	top: 85px;
-	left: 115px;
+	position: fixed;
+	bottom: 15px;
+	left: 80px;
 	font-size: 15px;
 	border: 5px solid #688A08;
 	border-radius: 50%;
@@ -189,12 +212,14 @@ a {
 	opacity: 0.9;
 	text-transform:capitalize;
 	font-weight: bold;
+	padding: 3px;
+	margin: 0;
 }
 #latin {
 	z-index: 1;
 	position: absolute;
 	left: 8px;
-	top: 42px;
+	top: 50px;
 	font-size: 12px;
 	border: 5px solid #F4FA58;
 	background-color: #F4FA58;
@@ -205,29 +230,12 @@ a {
 	z-index: 1;
 	position: absolute;
 	left: 8px;
-	top: 66px;
+	top: 74px;
 	font-size: 12px;
 	border: 5px solid #F4FA58;
 	background-color: #F4FA58;
 	opacity: 0.9;
 	text-transform:capitalize;
-}
-footer {
-	background-color: #2E3B0B;
-	position: absolute;
-	width: 100%;
-	color: #F4FA58;
-	margin: -10px;
-	margin-top: 10px;
-}
-footer a {
-	color: #F4FA58;
-}
-footer a:hover {
-	text-decoration: underline;
-}
-#gap {
-	padding-left: 7px;
 }
 #mobile_menu {
 	font-family: 'Anonymous Pro', Verdana, sans-serif;
@@ -235,13 +243,16 @@ footer a:hover {
 	background-color: #F4FA58;
 	margin-left: 7px;
 	border: 1px solid #F4FA58;
-	padding: 5px;
+	padding: 4px;
 	float: left;
 	border-radius: 2px;
 	color: #000;
 	display: none;
+	padding-left: 7px;
+	position: fixed;
+	top: 6px;
+	right: 12px;
 }
-
 #mobile_menu:focus {
 	outline: 0;
 }
@@ -249,22 +260,9 @@ footer a:hover {
 	background-color: transparent;
 	color: #F4FA58;
 }
-#description {
-	display: none;
-	position: absolute;
-	top: 8px;
-	right: 8px;
-	bottom: 8px;
-	width: 70%;
-	overflow: auto;
-	text-align: left;
-	background-color: #F4FA58;
-	opacity: 0.9;
-	border: 5px solid #F4FA58;
-}
 .glut {
 	position: absolute;
-    top: 96px;
+    top: 98px;
     left: 8px;
     z-index: 5;
 	text-align: center;
@@ -327,9 +325,8 @@ footer a:hover {
 	font-family: Impact, "sans-serif";
 	width: 75px;
 	color: #fff;
-	/*background-color: #006600;*/
 	left: 8px;
-	top: 146px;
+	top: 144px;
 	position: absolute;
 }
 #paleo_friendly {
@@ -345,6 +342,20 @@ footer a:hover {
 	border: 3px solid #e6e600;
 }
 
+footer {
+	background-color: #2E3B0B;
+	position: absolute;
+	width: 100%;
+	color: #F4FA58;
+	margin: -10px;
+	margin-top: 10px;
+}
+footer a {
+	color: #F4FA58;
+}
+footer a:hover {
+	text-decoration: underline;
+}
 /* chrome */
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {
@@ -358,24 +369,46 @@ footer a:hover {
 /* 150% */
 @media screen and (max-width: 900px) 
 {
-	#collapse {
-		display: block;
-	}
 	header {
+		/*text-align: center;*/
+		height: 60px;
+		width: auto;
+	}
+	h3 {
 		text-align: center;
 	}
-	nav {
-		width: 100%;
-		top: -150px;
-		margin-top: 0px;
-		margin-left: 0;
-		/*margin-bottom: -10%;*/
+	form#krckoO {
+		display: block;
+		position: absolute;
+		top: 40px;
+		left: 10px;
+		width: auto;
+		/*margin: auto;
+		text-align: center;*/
 	}
-	#nav {
-		display: none;
+	#search_box {
+		width: 150px;
+		position: absolute;
+		top: 4px;
+		left: -1px;
+	}
+	#search_button {
+		position: absolute;
+		top: -2px;
+		left: 155px;
+	}
+	input[type:text] {
+		width: 80%;
+		/*display: inline;
+		postition: absolute;
+		top: 50px;
+		margin-top: 15px;*/
 	}
 	#mobile_menu {
 		display: block;
+	}
+	#nav {
+		display: none;
 	}
 	#home {
 		font-family: Verdana, "sans-serif";
@@ -425,5 +458,28 @@ footer a:hover {
 	}
 	#cont p {
 		margin-top: 10px;
+	}
+}
+@media screen and (min-width: 900px) 
+{
+	#nav {
+		display: inline;
+	}
+	#description {
+		display: none;
+		position: absolute;
+		border-radius: 0 7px 7px 0;
+		top: 8px;
+		right: 8px;
+		bottom: 8px;
+		width: 70%;
+		overflow: auto;
+		text-align: left;
+		background-color: #F4FA58;
+		opacity: 0.9;
+		border: 5px solid #F4FA58;
+	}
+	input[type=text] {
+	width: 40%;
 	}
 }

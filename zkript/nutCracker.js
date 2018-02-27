@@ -42,7 +42,7 @@ xhr.onreadystatechange = function () {
 		function clixked() {
 			searched = document.getElementById("query").value.toLowerCase();
 			K = list.indexOf(searched);
-			console.log(K);
+
 			if (K === -1) {
 				K = Math.floor(Math.random()*brna);
 			}
@@ -51,21 +51,9 @@ xhr.onreadystatechange = function () {
 		}
 		
 		console.log(list);
-		/*if (searched === "") {
-			K = Math.floor(Math.random()*brna);
 
-		}
-		else {
-			console.log("testing");
-			
-
-		//}*/
-
-				
-			//K = Math.floor(Math.random()*brna);
-			//return false;
 	}
-		console.log(K);
+
 		function nutCracker(K) {
 		var kernelName, latinName, engName,
 			glutenB, gluten, glutenUp, glutenDown, glutenStUp,
@@ -76,7 +64,7 @@ xhr.onreadystatechange = function () {
 		contents.innerHTML = "<img src='imgz/" + zrna[K].name + ".jpg' id='bcg-img' alt='ovo je " + zrna[K].name + "'>";
 
 /* adds name of selected kernel to the page */
-		kernelName = document.createElement("div");
+		kernelName = document.createElement("h1");
 		contents.appendChild(kernelName);
 		kernelName.innerHTML = zrna[K].name;
 		kernelName.id = "title";

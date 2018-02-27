@@ -49,7 +49,17 @@
 		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum commodi, voluptatibus laboriosam praesentium architecto illum in maiores labore, esse culpa neque ipsam reiciendis, necessitatibus et! Fuga adipisci, quaerat nihil rerum!",
 		"nutr":"to be added at later date"
 	},
-		{
+	{
+		"name": "riža",
+		"type": "žitarica",
+		"gluten": false,
+		"paleo": false,
+		"latin": "Oryza sativa",
+		"english": "rice",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum commodi, voluptatibus laboriosam praesentium architecto illum in maiores labore, esse culpa neque ipsam reiciendis, necessitatibus et! Fuga adipisci, quaerat nihil rerum!",
+		"nutr":"to be added at later date"
+	},
+	{
 		"name":"kukuruz",
 		"type":"žitarica",
 		"gluten":false,
@@ -59,16 +69,15 @@
 		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, veniam ipsum obcaecati mollitia dolore labore officia odit dolorum sed. Necessitatibus veritatis vero laudantium, minima at porro illum dicta quis optio?",
 		"nutr":"to be added at later date"
 	},
-
 	{
 		"name": "heljda",
-		"type": "ostalo",
+		"type": "ahenija",
 		"gluten": false,
 		"paleo": null,
 		"latin": "Fagopyrum esculentum",
 		"english": "buckwheat",
-		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nostrum, odit commodi quisquam dolorum amet? Eaque, non facilis nostrum perspiciatis minima, alias, ab nobis necessitatibus quos libero quia eius consectetur.",
-		"nutr":"to be added at later date"
+		"desc": "Heljda se po paleo principu svrstava u pseudo-žitarice.</p><p>Engleski naziv za Heljdu je \"Buckwheat\", pri čemu \"Wheat\", znači \"Pšenica\". Ovaj naziv izaziva konfuziju, ali Heljda i Pšenica nisu srodne, i Heljda ne sadrži gluten. Štaviše, Heljda, biljka, spada u bilje, ali ne i u prave trave, pa zrno Heljde nije ni žitarica. Verovatno je nastala kultivacijom divlje Heljde, mada nije puzavica poput brojnih divljih vrsta.</p><h4>Upotreba</h4>Heljda se koristi u palačinkama, mafinima, Japanskim Soba nudlama (蕎麦), Korejskim Memil nengmjon (메밀 냉면) nudlama, koje su žilavije od Soba nudli, Sičuanskom crnom Heljda čaju (黑苦荞茶), Bretonskim galetama i sl.<p>Nekada se koristi kao zeleno đubrivo (iščupana biljka iz zemlje se ostavlja da truli na zemljištu kako bi ga obogatila), kao biljka za kontrolu erozije (ima izvanredno razgranato korenje sa jednom glavnom granom korena koja prodire duboko do vlažnog zemljišta), kao zaštita i prehrana za divlje životinje.<p>Do početka dvadesetog veka, bila je mnogo više u upotrebi, ali je uvođenje azotnih đubriva pospešilo prinose drugih osnovnih namirnica, i takođe smanjilo prinose same Heljde, time je potisnuvši iz šire upotrebe.<h4>Istorija</h4>Smatra se da je pripitomljena i kultivisana u jugoistočnoj Aziji (u zapadnoj Junan provinciji) oko 6000 godina PNE. U Evropi se prvi put pominje u Finskoj oko 5300 godina PNE kao prvi znak agrikulture, a na Balkanu oko 4000 godina PNE u srednjem Neolitu.<p>Od svih pripitomljenih vrsta, Heljda raste na najvišim nadmorskim visinama budući da je pripitomljena na Tibetanskom Platou. Jedan je od prvih useva koji su Evropljani posejali u Americi. Smatra se da je obišla pun krug 2006, kada je vrsta razvijena u Kanadi, bila posejana širom Kine.<p>U poslednje vreme, Heljda počinje da se vraća u upotrebu na talasu popularnosti takozvanih \"prastarih žitarica\", koje predstavljaju žitarice, i pseudožitarice koje su pretrpele najmanje modifikacije u poslednjem milenijumu.<h4>Uzgajanje</h4>Heljda ima kratku sezonu i dobro raste na neplodnom i kiselom zemljištu, ali ono mora imati dobru drenažu. Sitan beli, žuti ili roze cvat je čini primamljivom u baštama, a od njega se dobija izvanredan, taman med. Prisustvo polinatora u velikoj meri pospešuje prinos. Đubriva, a posebno azotna, smanjuju prinose, kao i vruće vreme. Raste svega 10-12 nedelja a može doseći i preko metra u vis. U toplijim klimama je treba saditi kasno, kako bi cvetala u hladnije doba godine.<p>Ne raste u obliku busenja već se slobodno grana što je čini prilagodljivijom od ostalih useva.<p>Ljuspica semena je lakša od vode pa se lako odvaja od zrna. ",
+		"nutr":"100g Heljde sadrži:<p><strong>Kalorija:</strong> 343 kcal u suvom ili 92 kcal ako su kuvane.<p><strong>Ugljenih hidrata:</strong> Preko 72g, od čega 10g <strong>dijetetskih vlakana</strong>, 3,5g <strong>šećera</strong> i ostalo skroba. Ovaj veliki sadržaj ugljenih hidrata je i glavni razlog što se Heljda ne smatra Paleo namirnicom. "
 	},
 	{
 		"name": "badem",
@@ -288,6 +297,36 @@
 		"paleo":true,
 		"latin":"Salvia hispanica",
 		"english":"chia seed",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reiciendis, praesentium, id repellat mollitia, fuga eum ab quisquam est odit iusto veritatis maxime voluptates sequi cupiditate et sint voluptas nobis!",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"kafa",
+		"type":"seme",
+		"gluten":false,
+		"paleo":true,
+		"latin":" Arabica ... i Robusta ...",
+		"english":"coffee bean",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reiciendis, praesentium, id repellat mollitia, fuga eum ab quisquam est odit iusto veritatis maxime voluptates sequi cupiditate et sint voluptas nobis!",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"kakao",
+		"type":"seme",
+		"gluten":false,
+		"paleo":true,
+		"latin":"Theobroma cacao",
+		"english":"cocoa ili cacao",
+		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reiciendis, praesentium, id repellat mollitia, fuga eum ab quisquam est odit iusto veritatis maxime voluptates sequi cupiditate et sint voluptas nobis!",
+		"nutr":"to be added at later date"
+	},
+	{
+		"name":"kokos",
+		"type":"koštunica",
+		"gluten":false,
+		"paleo":true,
+		"latin":"Cocos nucifera",
+		"english":"coconut",
 		"desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reiciendis, praesentium, id repellat mollitia, fuga eum ab quisquam est odit iusto veritatis maxime voluptates sequi cupiditate et sint voluptas nobis!",
 		"nutr":"to be added at later date"
 	},
